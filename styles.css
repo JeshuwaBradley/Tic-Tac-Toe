@@ -1,0 +1,56 @@
+body {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  color: #333;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  background-image: linear-gradient(to right, #753682 0%, #bf2e34 100%);
+  justify-content: center;
+  text-align: center;
+}
+
+button{
+  margin-top: 3rem;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  /* background-color: ; */
+}
+
+button:active{
+  outline: none;
+}
+button:focus{
+  outline: none;
+}
+
+table {
+  z-index: 1;
+  margin: 5rem auto;
+}
+
+td {
+  width: 10rem;
+  height: 10rem;
+  background-color: rgba(255, 255, 255, 0.4);
+  margin: 2.5rem;
+  z-index: -1;
+  border: 2.5rem solid ;
+  font-size: 70px;
+}
+
+.endgame{
+  display: none;
+  width: 200px;
+  top: 120px;
+  background-color: rgba(205, 133, 63, 0.8);
+  position: absolute;
+  left: 50%;
+  margin-left: -100px;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-size: 2em;
+}
